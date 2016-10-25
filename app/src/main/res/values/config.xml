@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <string name="first_screen">mainMenu</string>
+    <string name="root_screen">mainMenu</string>
 </resources>

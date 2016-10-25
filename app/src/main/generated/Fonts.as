@@ -8,16 +8,10 @@ package
 	 */
 	public final class Fonts
 	{		
-		/**
-		 *
-		 */
 		public static const UBUNTU : String = "Ubuntu";
 		[Embed(source="/Ubuntu.ttf",fontFamily="Ubuntu",fontWeight="normal",fontStyle="normal",mimeType="application/x-font",embedAsCFF="false")]
 		private static var UBUNTU_CLASS : Class;
 
-		/**
-		 * @private
-		 */
 		public function Fonts()
 		{
 			throw new Error( this + " cannot be instantiated" );

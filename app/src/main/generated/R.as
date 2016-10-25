@@ -10,59 +10,17 @@ package
 	 */
 	public final class R
 	{
-		/**
-		 *
-		 */
 		public static var bool : RBool;
-
-		/**
-		 *
-		 */
 		public static var color : RColor;
-
-		/**
-		 *
-		 */
 		public static var dimen : RDimen;
-
-		/**
-		 *
-		 */
 		public static var drawable : RDrawable;
-
-		/**
-		 *
-		 */
 		public static var integer : RInteger;
-
-		/**
-		 *
-		 */
 		public static var object : RObject;
-
-		/**
-		 *
-		 */
 		public static var raw : RRaw;
-
-		/**
-		 *
-		 */
 		public static var sound : RSound;
-
-		/**
-		 *
-		 */
 		public static var string : RString;
-
-		/**
-		 *
-		 */
 		public static var xml : RXml;
 
-		/**
-		 *
-		 */
 		public function R( singleton : Singleton )
 		{
 			bool = new RBool();
@@ -156,7 +114,7 @@ class RSound
 
 class RString
 {
-	public const first_screen : String = getString( "first_screen" );
+	public const root_screen : String = getString( "root_screen" );
 	public const animation : String = getString( "animation" );
 	public const benchmark : String = getString( "benchmark" );
 	public const blendMode : String = getString( "blendMode" );

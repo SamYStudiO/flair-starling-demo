@@ -87,7 +87,7 @@ package starling.view
 			_navigator.addScreen( ScreenID.TEXT , new StackScreenNavigatorItem( TextScreen , null , Event.COMPLETE ) );
 			_navigator.addScreen( ScreenID.TEXTURE , new StackScreenNavigatorItem( TextureScreen , null , Event.COMPLETE ) );
 			_navigator.addScreen( ScreenID.TOUCH , new StackScreenNavigatorItem( TouchScreen , null , Event.COMPLETE ) );
-			_navigator.rootScreenID = ScreenID.MAIN_MENU;
+			_navigator.rootScreenID = R.string.root_screen;
 			_navigator.layoutData = new AnchorLayoutData( 0 , 0 , 0 , 0 );
 
 			addChild( _navigator );
