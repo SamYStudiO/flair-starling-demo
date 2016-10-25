@@ -1,0 +1,38 @@
+buildscript {
+    repositories {
+        //jcenter( )
+        mavenLocal()
+    }
+
+    dependencies {
+        classpath "com.github.samystudio.flair:flair-gradle-plugin:0.7.4"
+    }
+}
+
+apply plugin: "flair.ios"
+apply plugin: "flair.android"
+apply plugin: "flair.desktop"
+apply plugin: "flair.idea"
+
+flair {
+    packageName "starling" // set your package name here (for example com.hello.world)
+
+    appId "com.gamua.starling.demo" // set your application id here, if null packageName is used
+    appName "Starling Demo" // set your app name here or leave null if you want to use your project name
+    appVersionLabel "1.0.0"
+    appVersionNumber "1"
+    appFullScreen true
+    appAspectRatio "portrait" //any, portrait or landscape
+    appAutoOrients false
+    appDepthAndStencil true // true if Starling masks are used
+    appDefaultSupportedLanguage "en" // valid languages are en, de, es, fr, it, ja, ko, pt, ru, cs, nl, pl, sv, tr, zh
+
+    buildTypes {
+        debug {
+            debug true
+        }
+        release {
+
+        }
+    }
+}

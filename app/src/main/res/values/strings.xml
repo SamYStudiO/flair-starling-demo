@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="animation">Animations</string>
+	<string name="benchmark">Benchmark</string>
+	<string name="blendMode">Blend Modes</string>
+	<string name="customHitTest">Custom hit-test</string>
+	<string name="filter">Filters</string>
+	<string name="mask">Masks</string>
+	<string name="movie">Movie Clip</string>
+	<string name="renderTexture">Render Texture</string>
+	<string name="sprite3d">Sprite 3D</string>
+	<string name="text">TextFields</string>
+	<string name="texture">Textures</string>
+	<string name="touch">Multitouch</string>
+	<string name="back">Back</string>
+	<string name="start_benchmark">Start benchmark</string>
+	<string name="benchmark_object_count">{0} objects</string>
+	<string name="benchmark_result"><![CDATA[Result:<br>{0} objects<br>with {1} fps]]></string>
+	<string name="blend_mode_switch_mode">Switch Mode</string>
+	<string name="custom_hit_description">Pushing the bird only works when the touch occurs within a circle. This can be accomplished by overriding the method 'hitTest'.</string>
+	<string name="filter_switch">Switch Filter</string>
+	<string name="filter_identity">Identity</string>
+	<string name="filter_blur">Blur</string>
+	<string name="filter_shadow">Drop shadow</string>
+	<string name="filter_glow">Glow</string>
+	<string name="filter_displacement">Displacement Map</string>
+	<string name="filter_invert">Invert</string>
+	<string name="filter_gray_scale">Grayscale</string>
+	<string name="filter_saturation">Saturation</string>
+	<string name="filter_contrast">Contrast</string>
+	<string name="filter_brightness">Brightness</string>
+	<string name="filter_hue">Hue</string>
+	<string name="filter_hue_shadow">Hue + Shadow</string>
+	<string name="mask_help">Move the mouse (or a finger) over the screen to move the mask.</string>
+	<string name="render_texture_help"><![CDATA[Touch the screen<br>to draw!]]></string>
+	<string name="render_texture_draw">Mode: Draw</string>
+	<string name="render_texture_erase">Mode: Erase</string>
+	<string name="text_border_color">TextFields can have a border and a color. They can be aligned in different ways, ...</string>
+	<string name="text_top_left"><![CDATA[... e.g.<br>top-left ...]]></string>
+	<string name="text_bottom_right"><![CDATA[... or<br>bottom right ...]]></string>
+	<string name="text_centered"><![CDATA[... or centered. Embedded fonts are detected automatically and <font color='#208080'>support</font> <font color='#993333'>basic</font> <font color='#333399'>HTML</font> <font color='#208020'>formatting</font>.]]></string>
+	<string name="text_bitmap">It is very easy to use Bitmap fonts, as well!</string>
+	<string name="touch_help"><![CDATA[[use Ctrl/Cmd & Shift to simulate multi-touch]]]></string>
+</resources>

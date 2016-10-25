@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?><module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="flair_ios_debug">
+    <configurations>
+      <configuration name="flair_ios_debug" target-platform="Mobile" pure-as="true" main-class="starling.MainIOS" output-file="ios_debug.swf" output-folder="$MODULE_DIR$/../build/ios_debug/package" skip-build="true">
+        <dependencies>
+          <sdk name="air_sdk_23.0"/>
+          <entries>
+            <entry library-level="project" library-name="libs_as">
+              <dependency linkage="Merged"/>
+            </entry>
+            <entry library-level="project" library-name="libs_swc">
+              <dependency linkage="Merged"/>
+            </entry>
+            <entry library-level="project" library-name="libs_ane">
+              <dependency linkage="Merged"/>
+            </entry>
+          </entries>
+        </dependencies>
+        <compiler-options>
+          <map>
+            <entry key="compiler.debug.swf" value="true"/>
+            <entry key="compiler.define" value="PLATFORM::IOS&#09;true&#10;PLATFORM::ANDROID&#09;false&#10;PLATFORM::DESKTOP&#09;false&#10;BUILD_TYPE::DEBUG&#09;true&#10;BUILD_TYPE::RELEASE&#09;false"/>
+          </map>
+          <option name="resourceFilesMode" value="None"/>
+          <option name="additionalOptions" value=""/>
+        </compiler-options>
+        <packaging-air-desktop/>
+        <packaging-android/>
+        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/../build/ios_debug/package/app_descriptor.xml" package-file-name="flair_starling_demo_debug_1.0.0_1">
+          <files-to-package>
+            <FilePathAndPathInPackage path-in-package="Default-375w-667h@2x.png" file-path="$MODULE_DIR$/../build/ios_debug/package/Default-375w-667h@2x.png"/>
+            <FilePathAndPathInPackage path-in-package="Default-414w-736h@3x.png" file-path="$MODULE_DIR$/../build/ios_debug/package/Default-414w-736h@3x.png"/>
+            <FilePathAndPathInPackage path-in-package="Default-568h@2x.png" file-path="$MODULE_DIR$/../build/ios_debug/package/Default-568h@2x.png"/>
+            <FilePathAndPathInPackage path-in-package="Default-Landscape-375w-667h@2x.png" file-path="$MODULE_DIR$/../build/ios_debug/package/Default-Landscape-375w-667h@2x.png"/>
+            <FilePathAndPathInPackage path-in-package="Default-Landscape-414w-736h@3x.png" file-path="$MODULE_DIR$/../build/ios_debug/package/Default-Landscape-414w-736h@3x.png"/>
+            <FilePathAndPathInPackage path-in-package="Default-Landscape-480h@2x.png" file-path="$MODULE_DIR$/../build/ios_debug/package/Default-Landscape-480h@2x.png"/>
+            <FilePathAndPathInPackage path-in-package="Default-Landscape-568h@2x.png" file-path="$MODULE_DIR$/../build/ios_debug/package/Default-Landscape-568h@2x.png"/>
+            <FilePathAndPathInPackage path-in-package="Default-Landscape.png" file-path="$MODULE_DIR$/../build/ios_debug/package/Default-Landscape.png"/>
+            <FilePathAndPathInPackage path-in-package="Default-Landscape@2x.png" file-path="$MODULE_DIR$/../build/ios_debug/package/Default-Landscape@2x.png"/>
+            <FilePathAndPathInPackage path-in-package="Default-Portrait.png" file-path="$MODULE_DIR$/../build/ios_debug/package/Default-Portrait.png"/>
+            <FilePathAndPathInPackage path-in-package="Default-Portrait@2x.png" file-path="$MODULE_DIR$/../build/ios_debug/package/Default-Portrait@2x.png"/>
+            <FilePathAndPathInPackage path-in-package="Default@2x.png" file-path="$MODULE_DIR$/../build/ios_debug/package/Default@2x.png"/>
+            <FilePathAndPathInPackage path-in-package="icons" file-path="$MODULE_DIR$/../build/ios_debug/package/icons"/>
+            <FilePathAndPathInPackage path-in-package="res" file-path="$MODULE_DIR$/../build/ios_debug/package/res"/>
+          </files-to-package>
+          <AirSigningOptions keystore-type="pkcs12" provisioning-profile-path="$MODULE_DIR$/../build/ios_debug/signing/profile.mobileprovision" keystore-path="$MODULE_DIR$/../build/ios_debug/signing/certificate.p12" use-temp-certificate="true"/>
+        </packaging-ios>
+      </configuration>
+      <configuration name="flair_ios_release" target-platform="Mobile" pure-as="true" main-class="starling.MainIOS" output-file="ios_release.swf" output-folder="$MODULE_DIR$/../build/ios_release/package" skip-build="true">
+        <dependencies>
+          <sdk name="air_sdk_23.0"/>
+          <entries>
+            <entry library-level="project" library-name="libs_as">
+              <dependency linkage="Merged"/>
+            </entry>
+            <entry library-level="project" library-name="libs_swc">
+              <dependency linkage="Merged"/>
+            </entry>
+            <entry library-level="project" library-name="libs_ane">
+              <dependency linkage="Merged"/>
+            </entry>
+          </entries>
+        </dependencies>
+        <compiler-options>
+          <map>
+            <entry key="compiler.debug.swf" value="false"/>
+            <entry key="compiler.define" value="PLATFORM::IOS&#09;true&#10;PLATFORM::ANDROID&#09;false&#10;PLATFORM::DESKTOP&#09;false&#10;BUILD_TYPE::DEBUG&#09;false&#10;BUILD_TYPE::RELEASE&#09;true"/>
+          </map>
+          <option name="resourceFilesMode" value="None"/>
+          <option name="additionalOptions" value=""/>
+        </compiler-options>
+        <packaging-air-desktop/>
+        <packaging-android/>
+        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/../build/ios_release/package/app_descriptor.xml" package-file-name="flair_starling_demo_release_1.0.0_1">
+          <files-to-package>
+            <FilePathAndPathInPackage path-in-package="Default-375w-667h@2x.png" file-path="$MODULE_DIR$/../build/ios_release/package/Default-375w-667h@2x.png"/>
+            <FilePathAndPathInPackage path-in-package="Default-414w-736h@3x.png" file-path="$MODULE_DIR$/../build/ios_release/package/Default-414w-736h@3x.png"/>
+            <FilePathAndPathInPackage path-in-package="Default-568h@2x.png" file-path="$MODULE_DIR$/../build/ios_release/package/Default-568h@2x.png"/>
+            <FilePathAndPathInPackage path-in-package="Default-Landscape-375w-667h@2x.png" file-path="$MODULE_DIR$/../build/ios_release/package/Default-Landscape-375w-667h@2x.png"/>
+            <FilePathAndPathInPackage path-in-package="Default-Landscape-414w-736h@3x.png" file-path="$MODULE_DIR$/../build/ios_release/package/Default-Landscape-414w-736h@3x.png"/>
+            <FilePathAndPathInPackage path-in-package="Default-Landscape-480h@2x.png" file-path="$MODULE_DIR$/../build/ios_release/package/Default-Landscape-480h@2x.png"/>
+            <FilePathAndPathInPackage path-in-package="Default-Landscape-568h@2x.png" file-path="$MODULE_DIR$/../build/ios_release/package/Default-Landscape-568h@2x.png"/>
+            <FilePathAndPathInPackage path-in-package="Default-Landscape.png" file-path="$MODULE_DIR$/../build/ios_release/package/Default-Landscape.png"/>
+            <FilePathAndPathInPackage path-in-package="Default-Landscape@2x.png" file-path="$MODULE_DIR$/../build/ios_release/package/Default-Landscape@2x.png"/>
+            <FilePathAndPathInPackage path-in-package="Default-Portrait.png" file-path="$MODULE_DIR$/../build/ios_release/package/Default-Portrait.png"/>
+            <FilePathAndPathInPackage path-in-package="Default-Portrait@2x.png" file-path="$MODULE_DIR$/../build/ios_release/package/Default-Portrait@2x.png"/>
+            <FilePathAndPathInPackage path-in-package="Default@2x.png" file-path="$MODULE_DIR$/../build/ios_release/package/Default@2x.png"/>
+            <FilePathAndPathInPackage path-in-package="icons" file-path="$MODULE_DIR$/../build/ios_release/package/icons"/>
+            <FilePathAndPathInPackage path-in-package="res" file-path="$MODULE_DIR$/../build/ios_release/package/res"/>
+          </files-to-package>
+          <AirSigningOptions keystore-type="pkcs12" provisioning-profile-path="$MODULE_DIR$/../build/ios_release/signing/profile.mobileprovision" keystore-path="$MODULE_DIR$/../build/ios_release/signing/certificate.p12" use-temp-certificate="false"/>
+        </packaging-ios>
+      </configuration>
+      <configuration name="flair_android_debug" target-platform="Mobile" pure-as="true" main-class="starling.MainAndroid" output-file="android_debug.swf" output-folder="$MODULE_DIR$/../build/android_debug/package" skip-build="true">
+        <dependencies>
+          <sdk name="air_sdk_23.0"/>
+          <entries>
+            <entry library-level="project" library-name="libs_as">
+              <dependency linkage="Merged"/>
+            </entry>
+            <entry library-level="project" library-name="libs_swc">
+              <dependency linkage="Merged"/>
+            </entry>
+            <entry library-level="project" library-name="libs_ane">
+              <dependency linkage="Merged"/>
+            </entry>
+          </entries>
+        </dependencies>
+        <compiler-options>
+          <map>
+            <entry key="compiler.debug.swf" value="true"/>
+            <entry key="compiler.define" value="PLATFORM::IOS&#09;false&#10;PLATFORM::ANDROID&#09;true&#10;PLATFORM::DESKTOP&#09;false&#10;BUILD_TYPE::DEBUG&#09;true&#10;BUILD_TYPE::RELEASE&#09;false"/>
+          </map>
+          <option name="resourceFilesMode" value="None"/>
+          <option name="additionalOptions" value=""/>
+        </compiler-options>
+        <packaging-air-desktop/>
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/../build/android_debug/package/app_descriptor.xml" package-file-name="flair_starling_demo_debug_1.0.0_1">
+          <files-to-package>
+            <FilePathAndPathInPackage path-in-package="1024x768.png" file-path="$MODULE_DIR$/../build/android_debug/package/1024x768.png"/>
+            <FilePathAndPathInPackage path-in-package="1080x1920.png" file-path="$MODULE_DIR$/../build/android_debug/package/1080x1920.png"/>
+            <FilePathAndPathInPackage path-in-package="1280x720.png" file-path="$MODULE_DIR$/../build/android_debug/package/1280x720.png"/>
+            <FilePathAndPathInPackage path-in-package="1280x800.png" file-path="$MODULE_DIR$/../build/android_debug/package/1280x800.png"/>
+            <FilePathAndPathInPackage path-in-package="1440x2560.png" file-path="$MODULE_DIR$/../build/android_debug/package/1440x2560.png"/>
+            <FilePathAndPathInPackage path-in-package="1536x2048.png" file-path="$MODULE_DIR$/../build/android_debug/package/1536x2048.png"/>
+            <FilePathAndPathInPackage path-in-package="1600x2560.png" file-path="$MODULE_DIR$/../build/android_debug/package/1600x2560.png"/>
+            <FilePathAndPathInPackage path-in-package="1920x1080.png" file-path="$MODULE_DIR$/../build/android_debug/package/1920x1080.png"/>
+            <FilePathAndPathInPackage path-in-package="2048x1536.png" file-path="$MODULE_DIR$/../build/android_debug/package/2048x1536.png"/>
+            <FilePathAndPathInPackage path-in-package="2560x1440.png" file-path="$MODULE_DIR$/../build/android_debug/package/2560x1440.png"/>
+            <FilePathAndPathInPackage path-in-package="2560x1600.png" file-path="$MODULE_DIR$/../build/android_debug/package/2560x1600.png"/>
+            <FilePathAndPathInPackage path-in-package="720x1280.png" file-path="$MODULE_DIR$/../build/android_debug/package/720x1280.png"/>
+            <FilePathAndPathInPackage path-in-package="768x1024.png" file-path="$MODULE_DIR$/../build/android_debug/package/768x1024.png"/>
+            <FilePathAndPathInPackage path-in-package="800x1280.png" file-path="$MODULE_DIR$/../build/android_debug/package/800x1280.png"/>
+            <FilePathAndPathInPackage path-in-package="icons" file-path="$MODULE_DIR$/../build/android_debug/package/icons"/>
+            <FilePathAndPathInPackage path-in-package="res" file-path="$MODULE_DIR$/../build/android_debug/package/res"/>
+          </files-to-package>
+          <AirSigningOptions keystore-type="pkcs12" keystore-path="$MODULE_DIR$/../build/android_debug/signing/certificate.p12" use-temp-certificate="true"/>
+        </packaging-android>
+        <packaging-ios/>
+      </configuration>
+      <configuration name="flair_android_release" target-platform="Mobile" pure-as="true" main-class="starling.MainAndroid" output-file="android_release.swf" output-folder="$MODULE_DIR$/../build/android_release/package" skip-build="true">
+        <dependencies>
+          <sdk name="air_sdk_23.0"/>
+          <entries>
+            <entry library-level="project" library-name="libs_as">
+              <dependency linkage="Merged"/>
+            </entry>
+            <entry library-level="project" library-name="libs_swc">
+              <dependency linkage="Merged"/>
+            </entry>
+            <entry library-level="project" library-name="libs_ane">
+              <dependency linkage="Merged"/>
+            </entry>
+          </entries>
+        </dependencies>
+        <compiler-options>
+          <map>
+            <entry key="compiler.debug.swf" value="false"/>
+            <entry key="compiler.define" value="PLATFORM::IOS&#09;false&#10;PLATFORM::ANDROID&#09;true&#10;PLATFORM::DESKTOP&#09;false&#10;BUILD_TYPE::DEBUG&#09;false&#10;BUILD_TYPE::RELEASE&#09;true"/>
+          </map>
+          <option name="resourceFilesMode" value="None"/>
+          <option name="additionalOptions" value=""/>
+        </compiler-options>
+        <packaging-air-desktop/>
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/../build/android_release/package/app_descriptor.xml" package-file-name="flair_starling_demo_release_1.0.0_1">
+          <files-to-package>
+            <FilePathAndPathInPackage path-in-package="1024x768.png" file-path="$MODULE_DIR$/../build/android_release/package/1024x768.png"/>
+            <FilePathAndPathInPackage path-in-package="1080x1920.png" file-path="$MODULE_DIR$/../build/android_release/package/1080x1920.png"/>
+            <FilePathAndPathInPackage path-in-package="1280x720.png" file-path="$MODULE_DIR$/../build/android_release/package/1280x720.png"/>
+            <FilePathAndPathInPackage path-in-package="1280x800.png" file-path="$MODULE_DIR$/../build/android_release/package/1280x800.png"/>
+            <FilePathAndPathInPackage path-in-package="1440x2560.png" file-path="$MODULE_DIR$/../build/android_release/package/1440x2560.png"/>
+            <FilePathAndPathInPackage path-in-package="1536x2048.png" file-path="$MODULE_DIR$/../build/android_release/package/1536x2048.png"/>
+            <FilePathAndPathInPackage path-in-package="1600x2560.png" file-path="$MODULE_DIR$/../build/android_release/package/1600x2560.png"/>
+            <FilePathAndPathInPackage path-in-package="1920x1080.png" file-path="$MODULE_DIR$/../build/android_release/package/1920x1080.png"/>
+            <FilePathAndPathInPackage path-in-package="2048x1536.png" file-path="$MODULE_DIR$/../build/android_release/package/2048x1536.png"/>
+            <FilePathAndPathInPackage path-in-package="2560x1440.png" file-path="$MODULE_DIR$/../build/android_release/package/2560x1440.png"/>
+            <FilePathAndPathInPackage path-in-package="2560x1600.png" file-path="$MODULE_DIR$/../build/android_release/package/2560x1600.png"/>
+            <FilePathAndPathInPackage path-in-package="720x1280.png" file-path="$MODULE_DIR$/../build/android_release/package/720x1280.png"/>
+            <FilePathAndPathInPackage path-in-package="768x1024.png" file-path="$MODULE_DIR$/../build/android_release/package/768x1024.png"/>
+            <FilePathAndPathInPackage path-in-package="800x1280.png" file-path="$MODULE_DIR$/../build/android_release/package/800x1280.png"/>
+            <FilePathAndPathInPackage path-in-package="icons" file-path="$MODULE_DIR$/../build/android_release/package/icons"/>
+            <FilePathAndPathInPackage path-in-package="res" file-path="$MODULE_DIR$/../build/android_release/package/res"/>
+          </files-to-package>
+          <AirSigningOptions keystore-type="pkcs12" keystore-path="$MODULE_DIR$/../build/android_release/signing/certificate.p12" use-temp-certificate="false"/>
+        </packaging-android>
+        <packaging-ios/>
+      </configuration>
+      <configuration name="flair_desktop_debug" target-platform="Desktop" pure-as="true" main-class="starling.MainDesktop" output-file="desktop_debug.swf" output-folder="$MODULE_DIR$/../build/desktop_debug/package" skip-build="true">
+        <dependencies>
+          <sdk name="air_sdk_23.0"/>
+          <entries>
+            <entry library-level="project" library-name="libs_as">
+              <dependency linkage="Merged"/>
+            </entry>
+            <entry library-level="project" library-name="libs_swc">
+              <dependency linkage="Merged"/>
+            </entry>
+            <entry library-level="project" library-name="libs_ane">
+              <dependency linkage="Merged"/>
+            </entry>
+          </entries>
+        </dependencies>
+        <compiler-options>
+          <map>
+            <entry key="compiler.debug.swf" value="true"/>
+            <entry key="compiler.define" value="PLATFORM::IOS&#09;false&#10;PLATFORM::ANDROID&#09;false&#10;PLATFORM::DESKTOP&#09;true&#10;BUILD_TYPE::DEBUG&#09;true&#10;BUILD_TYPE::RELEASE&#09;false"/>
+          </map>
+          <option name="resourceFilesMode" value="None"/>
+          <option name="additionalOptions" value=""/>
+        </compiler-options>
+        <packaging-air-desktop enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/../build/desktop_debug/package/app_descriptor.xml" package-file-name="flair_starling_demo_debug_1.0.0_1">
+          <files-to-package>
+            <FilePathAndPathInPackage path-in-package="icons" file-path="$MODULE_DIR$/../build/desktop_debug/package/icons"/>
+            <FilePathAndPathInPackage path-in-package="res" file-path="$MODULE_DIR$/../build/desktop_debug/package/res"/>
+            <FilePathAndPathInPackage path-in-package="splash.png" file-path="$MODULE_DIR$/../build/desktop_debug/package/splash.png"/>
+            <FilePathAndPathInPackage path-in-package="splash@2x.png" file-path="$MODULE_DIR$/../build/desktop_debug/package/splash@2x.png"/>
+          </files-to-package>
+          <AirSigningOptions keystore-type="pkcs12" keystore-path="$MODULE_DIR$/../build/desktop_debug/signing/certificate.p12" use-temp-certificate="true"/>
+        </packaging-air-desktop>
+        <packaging-android/>
+        <packaging-ios/>
+      </configuration>
+      <configuration name="flair_desktop_release" target-platform="Desktop" pure-as="true" main-class="starling.MainDesktop" output-file="desktop_release.swf" output-folder="$MODULE_DIR$/../build/desktop_release/package" skip-build="true">
+        <dependencies>
+          <sdk name="air_sdk_23.0"/>
+          <entries>
+            <entry library-level="project" library-name="libs_as">
+              <dependency linkage="Merged"/>
+            </entry>
+            <entry library-level="project" library-name="libs_swc">
+              <dependency linkage="Merged"/>
+            </entry>
+            <entry library-level="project" library-name="libs_ane">
+              <dependency linkage="Merged"/>
+            </entry>
+          </entries>
+        </dependencies>
+        <compiler-options>
+          <map>
+            <entry key="compiler.debug.swf" value="false"/>
+            <entry key="compiler.define" value="PLATFORM::IOS&#09;false&#10;PLATFORM::ANDROID&#09;false&#10;PLATFORM::DESKTOP&#09;true&#10;BUILD_TYPE::DEBUG&#09;false&#10;BUILD_TYPE::RELEASE&#09;true"/>
+          </map>
+          <option name="resourceFilesMode" value="None"/>
+          <option name="additionalOptions" value=""/>
+        </compiler-options>
+        <packaging-air-desktop enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/../build/desktop_release/package/app_descriptor.xml" package-file-name="flair_starling_demo_release_1.0.0_1">
+          <files-to-package>
+            <FilePathAndPathInPackage path-in-package="icons" file-path="$MODULE_DIR$/../build/desktop_release/package/icons"/>
+            <FilePathAndPathInPackage path-in-package="res" file-path="$MODULE_DIR$/../build/desktop_release/package/res"/>
+            <FilePathAndPathInPackage path-in-package="splash.png" file-path="$MODULE_DIR$/../build/desktop_release/package/splash.png"/>
+            <FilePathAndPathInPackage path-in-package="splash@2x.png" file-path="$MODULE_DIR$/../build/desktop_release/package/splash@2x.png"/>
+          </files-to-package>
+          <AirSigningOptions keystore-type="pkcs12" keystore-path="$MODULE_DIR$/../build/desktop_release/signing/certificate.p12" use-temp-certificate="false"/>
+        </packaging-air-desktop>
+        <packaging-android/>
+        <packaging-ios/>
+      </configuration>
+    </configurations>
+    <compiler-options/>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output/>
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/src/ios/icons"/>
+      <excludeFolder url="file://$MODULE_DIR$/src/ios/splash_screens"/>
+      <excludeFolder url="file://$MODULE_DIR$/src/ios/signing"/>
+      <excludeFolder url="file://$MODULE_DIR$/src/android/icons"/>
+      <excludeFolder url="file://$MODULE_DIR$/src/android/splash_screens"/>
+      <excludeFolder url="file://$MODULE_DIR$/src/android/signing"/>
+      <excludeFolder url="file://$MODULE_DIR$/src/desktop/icons"/>
+      <excludeFolder url="file://$MODULE_DIR$/src/desktop/splash_screens"/>
+      <excludeFolder url="file://$MODULE_DIR$/src/desktop/signing"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/android/actionscript" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/desktop/actionscript" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/ios/actionscript" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/main/actionscript" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/main/fonts" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/main/generated" isTestSource="false"/>
+    </content>
+    <orderEntry type="jdk" jdkName="air_sdk_23.0" jdkType="Flex SDK Type (new)"/>
+    <orderEntry type="sourceFolder" forTests="false"/>
+    <orderEntry type="library" exported="" name="libs_as" level="project"/>
+    <orderEntry type="library" exported="" name="libs_swc" level="project"/>
+    <orderEntry type="library" exported="" name="libs_ane" level="project"/>
+  </component>
+</module>
