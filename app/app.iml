@@ -261,15 +261,6 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output/>
     <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/src/ios/icons"/>
-      <excludeFolder url="file://$MODULE_DIR$/src/ios/splash_screens"/>
-      <excludeFolder url="file://$MODULE_DIR$/src/ios/signing"/>
-      <excludeFolder url="file://$MODULE_DIR$/src/android/icons"/>
-      <excludeFolder url="file://$MODULE_DIR$/src/android/splash_screens"/>
-      <excludeFolder url="file://$MODULE_DIR$/src/android/signing"/>
-      <excludeFolder url="file://$MODULE_DIR$/src/desktop/icons"/>
-      <excludeFolder url="file://$MODULE_DIR$/src/desktop/splash_screens"/>
-      <excludeFolder url="file://$MODULE_DIR$/src/desktop/signing"/>
       <sourceFolder url="file://$MODULE_DIR$/src/android/actionscript" isTestSource="false"/>
       <sourceFolder url="file://$MODULE_DIR$/src/desktop/actionscript" isTestSource="false"/>
       <sourceFolder url="file://$MODULE_DIR$/src/ios/actionscript" isTestSource="false"/>
