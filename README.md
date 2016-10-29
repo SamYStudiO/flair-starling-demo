@@ -4,7 +4,6 @@ Starling demo sources have also been modify to include [Feathers](https://github
 
 
 ##### GETTING STARTED
-===
 After you checked out project from IntelliJ, you need to initialize gradle.
 Open gradle panel on the right ![gradle](https://raw.githubusercontent.com/wiki/SamYStudiO/flair-gradle-plugin/images/gradle_panel.png) and click refresh button ![gradle](https://raw.githubusercontent.com/wiki/SamYStudiO/flair-gradle-plugin/images/gradle_refresh.png).
 
