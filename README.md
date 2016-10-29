@@ -2,8 +2,9 @@
 This is a demo project for [flair-gradle-plugin](https://github.com/SamYStudiO/flair-gradle-plugin) using [Starling](https://github.com/Gamua/Starling-Framework) original [demo](http://gamua.com/starling/demo/).
 Starling demo sources have also been modify to include [Feathers](https://github.com/BowlerHatLLC/feathers) Screen navigation (and layout) since Flair relies on Feathers Screen to manage resources.
 
+
+##### GETTING STARTED
 ===
-#####GETTING STARTED
 After you checked out project from IntelliJ, you need to initialize gradle.
 Open gradle panel on the right ![gradle](https://raw.githubusercontent.com/wiki/SamYStudiO/flair-gradle-plugin/images/gradle_panel.png) and click refresh button ![gradle](https://raw.githubusercontent.com/wiki/SamYStudiO/flair-gradle-plugin/images/gradle_refresh.png).
 
